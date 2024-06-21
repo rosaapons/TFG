@@ -28,12 +28,15 @@ dataset = version.download("yolov8")
 ```
 
 # classif
-En el fitxer "classif2.py" es realitza la detecció i classificació de les fruites amb el model entrenat per una nova base de dades amb imatges reals.
+En el fitxer `classif2.py` es realitza la detecció i classificació de les fruites amb el model entrenat per una nova base de dades amb imatges reals.
 
 En l'experiment 1 i 3, s'utilitza com a **model_path** la ruta del fitxer de pesos: best1.pt
+
 En l'experiment 2, s'utilitza com a **model_path** la ruta del fitxer de pesos: best2.pt
 
+
 En l'experiment 1 i 2, s'utilitza com a **path_validation** la ruta de les imatges en aquest repositori: https://bit.ly/base_de_dades_validacio
+
 En l'experiment 3, s'utilitza com a **path_validation** la ruta de les imatges en aquest repositori: https://bit.ly/base_de_dades_validacio_2
 
 Un cop amb el model i les imatges configurades. Per cada imatge s'aplica el model:
